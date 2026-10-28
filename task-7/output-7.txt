@@ -1,0 +1,14 @@
+--- Procedural Implementation Output (procedural.cpp) ---
+Procedural Approach:
+Initial Balance: 10000 paise
+Fare: 3600 paise
+Deduction Successful. New Balance: 6400 paise
+Vulnerability in Procedural: Balance can be directly altered to: -500 paise
+
+--- Object-Oriented Implementation Output (oop.cpp) ---
+Object-Oriented Approach:
+Card ID: 201
+Initial Balance: 10000 paise
+Fare: 3600 paise
+Deduction Successful. New Balance: 6400 paise
+Deduction of 5000 paise Denied. Balance preserved at: 6400 paise
