@@ -1,0 +1,12 @@
+=== RECOMMENDED FINAL DESIGN FOR METRO GATE SYSTEM ===
+Card ID: 301
+Initial Card Balance: Rs 100.00
+
+Trip 1: Outer Zone, 9:00 AM (Peak)
+Calculated Fare: Rs 36.00
+Trip 1 Approved. Balance: Rs 64.00
+
+Executing Fare Revision: Inner=Rs 12, Middle=Rs 22, Outer=Rs 35...
+Trip 2 After Revision: Outer Zone, 9:00 AM (Peak)
+Revised Fare: Rs 42.00
+Trip 2 Denied: Minimum balance of Rs 50 required.
