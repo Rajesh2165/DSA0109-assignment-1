@@ -1,0 +1,4 @@
+Card ID: 101
+Initial Balance (Paise): 10000
+Calculated Fare (Paise): 3600
+Journey Approved. New Balance (Paise): 6400
