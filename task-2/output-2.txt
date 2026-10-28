@@ -1,0 +1,4 @@
+Zone: Outer
+Peak Surcharge Percent: 20%
+Minimum Required Balance: 5000 paise
+Calculated Fare: 3600 paise (36 Rs)
