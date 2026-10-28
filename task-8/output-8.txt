@@ -1,0 +1,12 @@
+Enter Card ID: Invalid input detected. Please enter a valid number: Enter Initial Balance in Rupees: Invalid input detected. Please enter a valid number: Enter Zone (1=Inner, 2=Middle, 3=Outer): Enter Travel Hour (0-23): 
+========================================
+             METRO JOURNEY REPORT       
+========================================
+Card ID         : 101
+Zone Code       : 3
+Travel Hour     : 9:00 (Peak)
+Starting Balance: Rs    100.00
+Trip Fare       : Rs     36.00
+Gate Status     : ALLOWED
+Closing Balance : Rs     64.00
+========================================
