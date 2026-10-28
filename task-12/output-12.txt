@@ -1,0 +1,21 @@
+=== TASK 12: DAY-4 DESIGN CHALLENGE IMPLEMENTATION ===
+
+Test 1: Regular Card - Airport Zone on Weekday Peak (9:00 AM)
+Calculated Fare: Rs 72.00
+Deduction Approved.
+Remaining Balance: Rs 128.00
+
+Test 2: Regular Card - Airport Zone on Weekend (10% Discount, No Peak Surcharge)
+Calculated Fare: Rs 54.00
+Deduction Approved.
+Remaining Balance: Rs 74.00
+
+Test 3: Monthly Pass Card (Covers Inner & Middle) - Journey in Inner Zone
+Calculated Fare: Rs 0.00
+Pass Validated. Zero Fare Deducted.
+Remaining Balance: Rs 100.00
+
+Test 4: Monthly Pass Card - Journey in Airport Zone (Uncovered Zone)
+Calculated Fare: Rs 72.00
+Deduction Denied: Stored balance insufficient to leave Rs 50 minimum.
+Remaining Balance: Rs 100.00
