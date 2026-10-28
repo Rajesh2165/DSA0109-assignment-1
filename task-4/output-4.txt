@@ -1,0 +1,13 @@
+--- Program 1: Implicit Conversions (task04.cpp) ---
+Execution Output:
+3 3.5
+C 68
+1 true
+s >= u
+
+--- Program 2: Explicit Conversions & Brace Initialization (task04_safe.cpp) ---
+Execution Output (Zero Warnings):
+3.5 3.5
+C 68
+1 true
+s < u
