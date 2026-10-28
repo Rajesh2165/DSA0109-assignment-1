@@ -1,0 +1,31 @@
+=========================================================================================
+Test Description                    Expected Fare  Actual Fare    Allowed?    Status    
+=========================================================================================
+Inner Off-Peak (11:00)              1000           1000           Yes         PASS      
+Inner Peak (9:00)                   1200           1200           Yes         PASS      
+Middle Off-Peak (14:00)             2000           2000           Yes         PASS      
+Middle Peak (18:00)                 2400           2400           Yes         PASS      
+Outer Off-Peak (12:00)              3000           3000           Yes         PASS      
+Outer Peak (8:00 - Boundary)        3600           3600           Yes         PASS      
+Outer Boundary (10:00 Off-Peak)     3000           3000           Yes         PASS      
+Outer Boundary (17:00 Peak)         3600           3600           Yes         PASS      
+Outer Boundary (20:00 Off-Peak)     3000           3000           Yes         PASS      
+Exact Rs 50 Remaining (6000-1000=5000)1000           1000           Yes         PASS      
+Insufficient: Leaves 4999 (<5000)   1000           1000           No          PASS      
+Invalid Zone (Unknown)              -1             -1             No          PASS      
+Invalid Hour (25)                   -1             -1             No          PASS      
+=========================================================================================
+Total Test Cases Passed: 13 / 13
+
+Testing Negative Recharge of -1000 paise:
+Recharge Accepted? No | Balance: 5000 paise (PASS)
+
+5 Hand-Calculated Journeys Test:
+Trip 1 Fare: 1200 paise (Expected: 1200)
+Trip 2 Fare: 2000 paise (Expected: 2000)
+Trip 3 Fare: 3600 paise (Expected: 3600)
+Trip 4 Fare: 1000 paise (Expected: 1000)
+Trip 5 Fare: 2400 paise (Expected: 2400)
+Hand-calculated Total: 10200 paise
+Actual Program Total : 10200 paise
+Hand Calculation Match: MATCH (PASS)
