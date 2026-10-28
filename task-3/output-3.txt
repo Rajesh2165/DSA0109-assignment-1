@@ -1,0 +1,16 @@
+Data Type Sizes (bytes):
+sizeof(bool): 1
+sizeof(char): 1
+sizeof(int): 4
+sizeof(long long): 8
+sizeof(unsigned int): 4
+sizeof(float): 4
+sizeof(double): 8
+
+Float/Double precision issue:
+Adding 0.1 ten times in double: 1
+doubleTotal == 1.0 is FALSE (Precision Loss!)
+
+Network Total for 3,000,000 journeys at 3600 paise:
+Using 32-bit int: -2084901888 (Overflowed!)
+Using 64-bit long long: 10800000000 paise (Exact)
