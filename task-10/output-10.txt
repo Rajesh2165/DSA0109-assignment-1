@@ -1,0 +1,21 @@
+============================================================
+  METRO NETWORK SCALE ANALYSIS (20K, 500K, 3M JOURNEYS)     
+============================================================
+Simulation for 20000 Journeys:
+  long long Total (Paise): 43997800 (Rs 439978.00)
+  double Total (Rupees)  : Rs 439978.000000
+  Difference (double - exact): Rs 0.000000
+  32-bit int Total (Paise): 43997800 [OK]
+------------------------------------------------------------
+Simulation for 500000 Journeys:
+  long long Total (Paise): 1099997800 (Rs 10999978.00)
+  double Total (Rupees)  : Rs 10999978.000000
+  Difference (double - exact): Rs 0.000000
+  32-bit int Total (Paise): 1099997800 [OK]
+------------------------------------------------------------
+Simulation for 3000000 Journeys:
+  long long Total (Paise): 6600000000 (Rs 66000000.00)
+  double Total (Rupees)  : Rs 66000000.000000
+  Difference (double - exact): Rs 0.000000
+  32-bit int Total (Paise): -1989934592 [OVERFLOW DETECTED!]
+------------------------------------------------------------
