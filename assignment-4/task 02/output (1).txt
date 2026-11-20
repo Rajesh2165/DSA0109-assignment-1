@@ -1,0 +1,11 @@
+=== TASK 2: FROM REQUIREMENT TO HIERARCHY (DIAMOND RESOLUTION) ===
+
+--- 1. PREDICT THE OUTPUT: DIAMOND INHERITANCE RESOLUTION ---
+Person Student Staff TA 
+
+--- 2. DEMONSTRATING UNIVERSITY PEOPLE MANAGEMENT ---
+Teaching Assistant (Hybrid Virtual Inheritance):
+  ID: 501 | Name: Kavya M | Phone: +91-9840112233 | Programme: M.Tech CSE (CGPA: 9.4) | Dept: Computer Science (Stipend: Rs 25000) | TA Hours: 12
+
+Research Scholar (Multilevel Inheritance):
+  ID: 601 | Name: Rajesh V | Phone: +91-9876543210 | Programme: Ph.D AI | CGPA: 9.8 | Fellowship: Rs 37000
