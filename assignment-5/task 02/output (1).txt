@@ -1,0 +1,13 @@
+=== TASK 02: ENGINEER ERROR CONDITIONS & RECOVERY ===
+
+--- 1. TASK A5: PREDICT THE OUTPUT (Stack Unwinding) ---
+~f ~main caught 42
+
+--- 2. TASK B2: PREDICT THE OUTPUT (Partial Handling & throw;) ---
+ok done caught negative [log too large] caught too large 
+
+--- 3. TASK B2: COMPLETE THE CODE EXECUTION ---
+approved 40000
+audit: exceeds cover
+claim rejected: exceeds cover
+error: negative amount
