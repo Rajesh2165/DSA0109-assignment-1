@@ -1,0 +1,15 @@
+=== Q1: CONSTRUCTORS AND CONSTRUCTOR OVERLOADING ===
+
+--- 1. Creating Books in Three Situations (Delegating Constructors) ---
+Book Record -> Title: "The C++ Programming Language", Author: Bjarne Stroustrup, Copies Available: 5
+Book Record -> Title: "Algorithms in C++", Author: Anonymous Donor, Copies Available: 1
+Book Record -> Title: "Untitled", Author: None, Copies Available: 0
+
+--- 2. Validating Invalid (Negative) Copies ---
+[Validation Warning: Negative copies (-4) corrected to 0 for 'Corrupted Record']
+Book Record -> Title: "Corrupted Record", Author: Unknown, Copies Available: 0
+
+--- 3. Array of Book Objects (Requires Default Constructor) ---
+Catalog[0]: Book Record -> Title: "Untitled", Author: None, Copies Available: 0
+Catalog[1]: Book Record -> Title: "Untitled", Author: None, Copies Available: 0
+Catalog[2]: Book Record -> Title: "Untitled", Author: None, Copies Available: 0
