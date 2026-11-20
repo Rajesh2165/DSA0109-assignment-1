@@ -1,0 +1,21 @@
+=== Q4: SPECIFYING A CLASS WITH AN ARRAY INSIDE IT ===
+
+Executing 12 transactions on Account 19251124901...
+
+Buffer full after 10 transactions. Now adding 11th and 12th transactions:
+
+--------------------------------------------
+MINI-STATEMENT FOR ACCOUNT: 19251124901
+Current Balance: Rs 11649.00
+Last 10 Transactions:
+  [1] DEBIT  : -Rs 500.00
+  [2] CREDIT : +Rs 2000.00
+  [3] DEBIT  : -Rs 300.00
+  [4] CREDIT : +Rs 1500.00
+  [5] DEBIT  : -Rs 700.00
+  [6] CREDIT : +Rs 2500.00
+  [7] DEBIT  : -Rs 400.00
+  [8] CREDIT : +Rs 800.00
+  [9] CREDIT : +Rs 999.00
+  [10] DEBIT  : -Rs 250.00
+--------------------------------------------
