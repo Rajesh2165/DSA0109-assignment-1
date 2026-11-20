@@ -1,0 +1,9 @@
+=== TASK 1: CLASS DESIGN REVIEW & REPAIRED HIERARCHY ===
+
+--- Processing All Staff Uniformly in One Polymorphic Loop ---
+ID: 101 | Name: Dr. Ramanathan   | Pay: Rs 128600.00
+ID: 202 | Name: Mr. Suresh       | Pay: Rs 49700.00
+ID: 303 | Name: Ms. Ananya       | Pay: Rs 48000.00
+---------------------------------------------------------
+Total Payroll Disbursement: Rs 226300.00
+
