@@ -1,0 +1,21 @@
+=== TASK 6: DESIGN CHALLENGE - VEHICLE RENTAL FLEET ===
+
+--- 1. CURRENT FLEET ROSTER ---
+Reg: TN-01-B101   | Type: Bicycle        | Daily Rate: Rs 150      | Status: AVAILABLE
+Reg: TN-02-TW202  | Type: Two-Wheeler    | Daily Rate: Rs 450      | Status: AVAILABLE | Fuel/Charge: 8.5 | Service Due: 2026-12-01
+Reg: TN-03-C303   | Type: Car            | Daily Rate: Rs 2200     | Status: AVAILABLE | Fuel/Charge: 35 | Service Due: 2026-12-15 | Seats: 5
+Reg: TN-04-EC404  | Type: Electric Car   | Daily Rate: Rs 2800     | Status: AVAILABLE | Fuel/Charge: 95 | Service Due: 2027-01-10 | Seats: 5 | Battery: 40 kWh
+Reg: TN-05-EB505  | Type: Electric Bus   | Daily Rate: Rs 8500     | Status: AVAILABLE | Fuel/Charge: 90 | Service Due: 2027-02-20 | Capacity: 40 passengers | Battery: 200 kWh
+
+--- 2. RENTING ALL VEHICLES ---
+Rented Bicycle [TN-01-B101] successfully.
+Rented Two-Wheeler [TN-02-TW202] successfully.
+Rented Car [TN-03-C303] successfully.
+Rented Electric Car [TN-04-EC404] successfully.
+Rented Electric Bus [TN-05-EB505] successfully.
+
+--- 3. RETURNING VEHICLES WITH USAGE AND LATE CHARGES ---
+Returned Bicycle (3 days on-time): Total Bill = Rs 450.00
+Returned Car (4 days + 2 days late): Total Bill = Rs 17800.00
+Returned Electric Car (2 days + 1 day late): Total Bill = Rs 11240.00
+Returned NEW Electric Bus (5 days on-time): Total Bill = Rs 47000.00
