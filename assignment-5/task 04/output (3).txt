@@ -1,0 +1,35 @@
+=== TASK 04: FINAL ENGINEERING DECISION (EXTENSION & SANITIZER) ===
+
+--- 1. PROCESSING HETEROGENEOUS BILLS WITH HETEROGENEOUS PAYERS ---
+OutPatient Bill for Kavya R: Rs 2000.00
+  Coverage Breakdown:
+    [Self-Pay (Patient)] Covered: Rs 2000.00 | Patient Due: Rs 0.00
+    [Private Health Insurance] Covered: Rs 1800.00 | Patient Due: Rs 200.00
+    [Government Health Scheme] Covered: Rs 2000.00 | Patient Due: Rs 0.00
+    [Corporate Tie-Up (Infosys Healthcare)] Covered: Rs 1700.00 | Patient Due: Rs 300.00
+
+InPatient Bill for Rohan S: Rs 70000.00
+  Coverage Breakdown:
+    [Self-Pay (Patient)] Covered: Rs 70000.00 | Patient Due: Rs 0.00
+    [Private Health Insurance] Covered: Rs 50000.00 | Patient Due: Rs 20000.00
+    [Government Health Scheme] Covered: Rs 25000.00 | Patient Due: Rs 45000.00
+    [Corporate Tie-Up (Infosys Healthcare)] Covered: Rs 59500.00 | Patient Due: Rs 10500.00
+
+DayCareSurgery Bill for Deepak M: Rs 22500.00
+  Coverage Breakdown:
+    [Self-Pay (Patient)] Covered: Rs 22500.00 | Patient Due: Rs 0.00
+    [Private Health Insurance] Covered: Rs 20250.00 | Patient Due: Rs 2250.00
+    [Government Health Scheme] Covered: Rs 22500.00 | Patient Due: Rs 0.00
+    [Corporate Tie-Up (Infosys Healthcare)] Covered: Rs 19125.00 | Patient Due: Rs 3375.00
+
+--- 2. RESOURCE SAFETY: EXCEPTION UNWINDING UNDER ASAN ---
+Attempting to create invalid bill with negative charge...
+[Safely Caught Exception]: Negative outpatient charge
+Stack unwound successfully, all heap allocations cleaned via RAII.
+
+--- 3. PRODUCTION DECISION VERIFICATION ---
+At 200,000 bills/day across 15 hospitals:
+  - Daily CPU time for virtual dispatch: ~1 millisecond.
+  - Exception overhead on error conditions: < 0.05% CPU footprint.
+  - Extensibility: Zero code modifications required for future bill types or payers.
+Verdict: The polymorphic architecture with exception handling is APPROVED for production.
