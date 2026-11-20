@@ -1,0 +1,25 @@
+=== Q2: RETURN BY REFERENCE AND ITS DANGERS ===
+
+Original marks: 78 85 92 64 88 
+Highest mark: 92
+
+--- Moderation of +2 directly to highest mark ---
+Marks after moderation: 78 85 94 64 88 
+Marks after setting highest to 100: 78 85 100 64 88 
+
+--- Comparison: Reference vs Const Reference vs Copy ---
+Modified index 0 via getRef to: 80
+Read via getConstRef: 80 (read-only)
+Read via getCopy: 80 (independent copy)
+
+--- Alternative Concepts: Index vs Pointer ---
+Highest mark via index [2]: 100
+Highest mark via pointer: 100
+
+--- Vector Growth & Reference Invalidation ---
+Vector initial capacity: 3
+Initial address of v[0]: 0x5b2f2689b030, value: 78
+Vector capacity after pushes: 6
+New address of v[0]: 0x5b2f2689b050
+Vector reallocated buffer! Pointers and references obtained before growth are now dangling.
+Index access v[0] remains safe: 78
