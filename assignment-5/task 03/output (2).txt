@@ -1,0 +1,28 @@
+=== TASK 03: VIRTUAL FUNCTIONS vs SWITCH vs EXCEPTIONS (THE COST) ===
+
+--- 1. B3.1: CORRECTNESS ON 10 BILLS ---
+Polymorphic Total (10 bills): Rs 271100.00
+Switch-Based Total (10 bills): Rs 271100.00
+Do both agree? true
+
+--- 2. B3.2: PERFORMANCE SCALING: VIRTUAL CALLS vs SWITCH DISPATCH ---
+>> Data Size: N = 1000 bills
+   Virtual Dispatch Time: 0 ms (Sum: 24600000.00)
+   Switch Dispatch Time:  0 ms (Sum: 24600000.00)
+>> Data Size: N = 1000000 bills
+   Virtual Dispatch Time: 4 ms (Sum: 24600000000.00)
+   Switch Dispatch Time:  1 ms (Sum: 24600000000.00)
+>> Data Size: N = 10000000 bills
+   Virtual Dispatch Time: 53 ms (Sum: 246000000000.00)
+   Switch Dispatch Time:  19 ms (Sum: 246000000000.00)
+
+--- 3. B3.3: COST OF EXCEPTIONS VS RETURN CODES (1,000,000 BILLS) ---
+>> Error Rate: 0.00%
+   Return Codes Time: 0 ms (Errors: 0)
+   Exceptions Time:   2 ms (Errors: 0)
+>> Error Rate: 1.00%
+   Return Codes Time: 0 ms (Errors: 10000)
+   Exceptions Time:   19 ms (Errors: 10000)
+>> Error Rate: 50.00%
+   Return Codes Time: 0 ms (Errors: 500000)
+   Exceptions Time:   761 ms (Errors: 500000)
