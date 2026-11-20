@@ -1,0 +1,18 @@
+=== Q5: OVERLOADING INCREMENT, COMPARISON AND SUBSCRIPT OPERATORS ===
+
+--- 1. PREDICT THE OUTPUT (Counter Prefix vs Postfix) ---
+5 7 7
+
+--- 2. TIME INCREMENT & ROLL-OVER (59:59 -> 1:00:00) ---
+Initial Time: 00:59:58
+After timer++ (returned old): 00:59:58 | Current timer: 00:59:59
+After ++timer (returned new): 01:00:00 | Current timer: 01:00:00
+
+--- 3. PLAYLIST OPERATOR [] AND RANGE CHECKING ---
+Valid access pl[1]: Track 2: Binary Blues
+Invalid access pl[-1]: [Error: Subscript -1 out of range (size: 3)] INVALID_TRACK
+Invalid access pl[pl.size()]: [Error: Subscript 3 out of range (size: 3)] INVALID_TRACK
+
+--- 4. BENCHMARK: 10,000,000 PREFIX VS POSTFIX INCREMENTS ---
+10,000,000 Prefix increments (++c): 23 ms
+10,000,000 Postfix increments (c++): 33 ms
