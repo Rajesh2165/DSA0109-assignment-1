@@ -1,0 +1,10 @@
+=== TASK 4: POINTERS TO DERIVED CLASSES (FORENSICS & REPAIR) ===
+
+--- 1. PREDICT THE OUTPUT: EARLY VS LATE BINDING & SLICING ---
+3.5 4 3.5
+
+--- 2. REPAIRED CODE EXECUTION (VIRTUAL DISPATCH & RAII) ---
+Standard Account | Balance: Rs 50000.00 | Interest Rate: 3.50%
+Senior Citizen Account | Balance: Rs 100000.00 | Interest Rate: 4.00%
+
+Memory safely managed: unique_ptr + virtual destructor prevents leaks and slicing.
