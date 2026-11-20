@@ -1,0 +1,21 @@
+=== Q6: THE RULES OF OPERATOR OVERLOADING (SMS GATEWAY TEXT CLASS) ===
+
+--- 1. BASIC OPERATIONS & CONCATENATION (+ and <<) ---
+t1: "Hello, "
+t2: "World!"
+t1 + t2: "Hello, World!" (Length: 13)
+
+--- 2. COMPARISON OPERATORS (== and !=) ---
+combined == t3: true
+t1 != t2: true
+
+--- 3. TESTING EMPTY STRINGS AND LONG MESSAGES ---
+Empty text length: 0, contents: ""
+Long message length: 117
+
+--- 4. SELF-ASSIGNMENT SAFETY (t1 = t1) ---
+After self-assignment t1: "Hello, " (Safe)
+
+--- 5. EVALUATING COPIES IN COMPOUND EXPRESSION (a + b + c) ---
+Evaluated a + b + c -> "SMS_1: OTP is 849201. Valid for 5 mins."
+Copies made during chaining: 0
