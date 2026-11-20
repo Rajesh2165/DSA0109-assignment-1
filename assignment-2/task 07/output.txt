@@ -1,0 +1,65 @@
+=== Q7: DAY-4 DESIGN CHALLENGE - DIAGNOSE, REDESIGN AND VALIDATE ===
+
+--- 1. CORRECTNESS VERIFICATION (LAST 50 TRANSACTIONS) ---
+
+--------------------------------------------
+CIRCULAR MINI-STATEMENT FOR ACCOUNT: 19251124901
+Current Balance: Rs 193000.00
+Displaying last 50 transactions (Capacity: 50):
+  [1] CREDIT : +Rs 1100.00
+  [2] CREDIT : +Rs 1200.00
+  [3] CREDIT : +Rs 1300.00
+  [4] CREDIT : +Rs 1400.00
+  [5] CREDIT : +Rs 1500.00
+  [6] CREDIT : +Rs 1600.00
+  [7] CREDIT : +Rs 1700.00
+  [8] CREDIT : +Rs 1800.00
+  [9] CREDIT : +Rs 1900.00
+  [10] CREDIT : +Rs 2000.00
+  [11] CREDIT : +Rs 2100.00
+  [12] CREDIT : +Rs 2200.00
+  [13] CREDIT : +Rs 2300.00
+  [14] CREDIT : +Rs 2400.00
+  [15] CREDIT : +Rs 2500.00
+  [16] CREDIT : +Rs 2600.00
+  [17] CREDIT : +Rs 2700.00
+  [18] CREDIT : +Rs 2800.00
+  [19] CREDIT : +Rs 2900.00
+  [20] CREDIT : +Rs 3000.00
+  [21] CREDIT : +Rs 3100.00
+  [22] CREDIT : +Rs 3200.00
+  [23] CREDIT : +Rs 3300.00
+  [24] CREDIT : +Rs 3400.00
+  [25] CREDIT : +Rs 3500.00
+  [26] CREDIT : +Rs 3600.00
+  [27] CREDIT : +Rs 3700.00
+  [28] CREDIT : +Rs 3800.00
+  [29] CREDIT : +Rs 3900.00
+  [30] CREDIT : +Rs 4000.00
+  [31] CREDIT : +Rs 4100.00
+  [32] CREDIT : +Rs 4200.00
+  [33] CREDIT : +Rs 4300.00
+  [34] CREDIT : +Rs 4400.00
+  [35] CREDIT : +Rs 4500.00
+  [36] CREDIT : +Rs 4600.00
+  [37] CREDIT : +Rs 4700.00
+  [38] CREDIT : +Rs 4800.00
+  [39] CREDIT : +Rs 4900.00
+  [40] CREDIT : +Rs 5000.00
+  [41] CREDIT : +Rs 5100.00
+  [42] CREDIT : +Rs 5200.00
+  [43] CREDIT : +Rs 5300.00
+  [44] CREDIT : +Rs 5400.00
+  [45] CREDIT : +Rs 5500.00
+  [46] CREDIT : +Rs 5600.00
+  [47] CREDIT : +Rs 5700.00
+  [48] CREDIT : +Rs 5800.00
+  [49] CREDIT : +Rs 5900.00
+  [50] CREDIT : +Rs 6000.00
+--------------------------------------------
+
+--- 2. BENCHMARK COMPARISON: 1,000,000 TRANSACTIONS (CAPACITY = 50) ---
+Original Shifting Design [O(k)]:  20 ms
+Revised Circular Design [O(1)]:   4 ms
+
+Validation Conclusion: Circular buffer successfully reduces O(k) linear memory shifts to O(1) pointer updates!
