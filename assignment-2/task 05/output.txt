@@ -1,0 +1,24 @@
+=== Q5: STATIC MEMBERS AND ARRAYS OF OBJECTS ===
+
+--- 1. PREDICT THE OUTPUT (Token Class) ---
+101 103 104 4
+
+--- 2. COMPLETE THE CODE (BusTicket Class) ---
+Asha: Seat 1
+Bala: Seat 2
+Chitra: Seat 3
+Dev: Waiting
+Issued: 3
+
+--- 3. TICKETS CREATED INSIDE A FUNCTION CALLED TWICE ---
+[Reset BusTicket::issued to 0 for batch experiment]
+
+Issuing batch: Morning Trip Call 1
+Passenger_A: Seat 1
+Passenger_B: Seat 2
+Current Total Issued: 2
+
+Issuing batch: Morning Trip Call 2
+Passenger_A: Seat 3
+Passenger_B: Waiting
+Current Total Issued: 3
