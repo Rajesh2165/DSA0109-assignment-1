@@ -1,0 +1,13 @@
+=== TASK 5: POINTERS TO OBJECTS AND THE this POINTER ===
+
+--- 1. RUNNING EXPECTED COMPLETE THE CODE ROUTINE ---
+324.00
+
+--- 2. DEMONSTRATING FOUR WAYS TO REACH AN OBJECT ---
+(a) Directly by name: Total = 324.00
+(b) Through pointer (p->total()): Total = 324.00
+(c) Through reference (ref.total()): Total = 324.00
+(d) Heap pointer (new/delete): Total = 185.25
+
+--- 3. FINDING CART WITH HIGHEST TOTAL (ARRAY OF POINTERS) ---
+Cart with highest total is Cart [1] with Total = Rs 1350.00
