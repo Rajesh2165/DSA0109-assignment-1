@@ -1,0 +1,16 @@
+=== Q6: FRIEND FUNCTIONS AND INLINE FUNCTIONS ===
+
+--- 1. EXPECTED OUTPUT TEST ---
+205 false
+
+--- 2. EDGE CASE CORRECTNESS TESTS ---
+Same time twice (10:30, 10:30):
+  minutesBetween: 0, earlier: false
+Across noon (11:45, 12:15):
+  minutesBetween: 30, earlier: true
+
+--- 3. ALTERNATIVE MEMBER FUNCTION VERIFICATION ---
+departure.minutesTo(arrival): 205, arrival.isEarlier(departure): false
+
+--- 4. GROWTH INVESTIGATION (10,000,000 CALLS) ---
+Completed 10000000 calls in 133 ms. Checksum: 4767497580
