@@ -1,0 +1,11 @@
+=== Q2: COPY CONSTRUCTORS - SHALLOW AND DEEP COPIES ===
+
+--- 1. RUNNING COMPLETE THE CODE ROUTINE ---
+Ibuprofen ORS | Paracetamol Cetirizine | Paracetamol ORS
+
+--- 2. SELF-ASSIGNMENT TEST ---
+After self-assignment (p = p): Ibuprofen ORS (Safe)
+
+--- 3. PASS BY VALUE VS CONST REFERENCE ---
+[Inside inspectByValue (copied)]: Ibuprofen
+[Inside inspectByConstRef (no copy)]: Ibuprofen
