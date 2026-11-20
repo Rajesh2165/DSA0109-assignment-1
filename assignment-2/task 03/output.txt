@@ -1,0 +1,9 @@
+=== Q3: DEFAULT ARGUMENTS AND FUNCTION OVERLOADING ===
+
+Testing 6 distinct calls to verify overload resolution:
+1. charge(2): [Called charge(int weightGrams)] -> Rs 0.10
+2. charge(2.0f): [Called charge(double, bool=0, bool=0)] -> Rs 100.00
+3. charge(2.5): [Called charge(double, bool=0, bool=0)] -> Rs 125.00
+4. charge(2.5, true): [Called charge(double, bool=1, bool=0)] -> Rs 225.00
+5. charge(2.5, true, true): [Called charge(double, bool=1, bool=1)] -> Rs 275.00
+6. charge(Parcel{3.5kg, express=true, insured=false}): [Called charge(const Parcel&)] [Called charge(double, bool=1, bool=0)] -> Rs 275.00
